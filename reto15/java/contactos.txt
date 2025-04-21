@@ -1,0 +1,3 @@
+{"nombre":"Ana Torres","telefono":"612345678","email":"ana@example.com"}
+{"nombre":"Luis Martín","telefono":"699999999","email":"luis@correo.com"}
+{"nombre":"Clara López","telefono":"655555555","email":"clara@empresa.com"}

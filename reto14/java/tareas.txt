@@ -1,0 +1,3 @@
+Lavar los platos,false
+Estudiar para el examen,false
+Hacer la compra,true

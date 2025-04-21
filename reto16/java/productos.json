@@ -1,0 +1,5 @@
+[
+    {"nombre": "Portátil", "precio": 799.99, "stock": 10},
+    {"nombre": "Tablet", "precio": 299.49, "stock": 20},
+    {"nombre": "Auriculares", "precio": 49.99, "stock": 50}
+]
