@@ -13,11 +13,11 @@ jobs:
     name: check_admin
     runs-on: ubuntu-latest
     env:
-      NAME_ADMIN: "JavierHerreroPorras"
+      AUTORIZADO: JavierHerreroPorras
     steps:
       - name: st1
-        if: ${{ github.actor != "JavierHerreroPorras" }}
+        if: ${{ github.actor != env.AUTORIZADO }}
         run: exit 1
       - name: st2
-        if: ${{ github.actor == "JavierHerreroPorras" }}
+        if: ${{ github.actor == env.AUTORIZADO }}
         run: echo "ok"
