@@ -43,7 +43,7 @@ Trabajarás sobre una pequeña aplicación que gestiona tareas pendientes. El c�
 
 ## Parte 2: JavaScript
 
-### Descripción
+### Descripción.
 
 Dispones de un pequeño programa en JavaScript que gestiona una lista de productos. El código tiene problemas de estilo, duplicidad y poca claridad. Tu tarea es refactorizar el código para que sea más limpio, legible y estructurado.
 
