@@ -16,8 +16,8 @@ jobs:
       NAME_ADMIN: JavierHerreroPorras
     steps:
       - name: st1
-        if: ${{ github.actor != JavierHerreroPorras }}
+        if: ${{ github.actor != "JavierHerreroPorras" }}
         run: exit 1
       - name: st2
-        if: ${{ github.actor == JavierHerreroPorras }}
+        if: ${{ github.actor == "JavierHerreroPorras" }}
         run: echo "ok"
