@@ -14,7 +14,7 @@ public class R {
         double precio = 0;
         if (t.equals("general")) {
             precio = 15;
-        } else if (t.equals("vip")) {
+        } else if (t.equals("vip.")) {
             precio = 30;
         }
 
