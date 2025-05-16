@@ -1,15 +1,36 @@
 package reto6.java;
 
 public class Cliente {
-    public String nombre;
-    public int numeroCuenta;
+    // encapsular atributos estaban en public y lo he puesto en private
+    private String nombre;
+    private int numeroCuenta;
 
-    public Cliente(String n, int c) {
-        nombre = n;
-        numeroCuenta = c;
+    // revisamos y mejoramos el contructor
+    public Cliente(String nombre, int numeroCuenta) {
+        this.nombre = nombre;
+        this.numeroCuenta = numeroCuenta;
     }
 
-    public void mostrar() {
-        System.out.println("Cliente: " + nombre + " - Cuenta: " + numeroCuenta);
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public int getNumeroCuenta() {
+        return numeroCuenta;
+    }
+
+    public void setNumeroCuenta(int numeroCuenta) {
+        this.numeroCuenta = numeroCuenta;
+    }
+
+    // aqui hemos creado un metodo toString
+    @Override
+    public String toString() {
+        String cadena = ("Cliente: " + nombre + " - Cuenta: " + numeroCuenta);
+        return cadena;
     }
 }
