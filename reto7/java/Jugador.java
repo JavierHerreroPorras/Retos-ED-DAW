@@ -1,10 +1,39 @@
+/**
+ * 
+ * @author Darío
+ * @version 1.0
+ * @since 2025-05-20
+ * 
+ */
+
 package reto7.java;
 
 public class Jugador {
+    /**
+     * Nombre del o de los jugadores
+     */
     private String nombre;
+
+    /**
+     * puntos de vida
+     */
     private int vida;
+    /**
+     * Puntos de ataque
+     */
     private int ataque;
+    /**
+     * Puntos de defensa
+     */
     private int defensa;
+    /**
+     * Crea un jugador con nombre, vida, ataque y defensa
+     * @param nombre
+     * @param vida
+     * @param ataque
+     * @param defensa
+     */
+
 
     public Jugador(String nombre, int vida, int ataque, int defensa) { 
         this.nombre = nombre;
