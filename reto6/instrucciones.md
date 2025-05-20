@@ -2,7 +2,7 @@
 
 ## Objetivo
 
-En este reto trabajarás con colas de atención al cliente en Java y con la gestión de pedidos en JavaScript. Deberás refactorizar y mejorar el diseño y legibilidad del código. En Java, además, se te propone una ampliación basada en herencia.
+En este reto trabajarás con colas de atención al cliente en Java y con la gestión de pedidos en JavaScript. Deberás refactorizar y mejorar el diseño y legibilidad del código. En Java, además, se te propone una ampliación basada en herencia..
 
 ---
 
