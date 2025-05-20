@@ -10,10 +10,20 @@ public class Prog {
     }
 
     public void ver() {
+        
         System.out.println("Nombre: " + n1);
         for (int i = 0; i < pts.length; i++) {
             System.out.println("Punto " + i + ": " + pts[i]);
         }
+    }
+    //Comando para hacer media
+    public double media() {
+        int suma = 0;
+        for (int p : pts) {
+            suma += p;
+        }
+        
+        return (double) suma / pts.length;
     }
 }
 
